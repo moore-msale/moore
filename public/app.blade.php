@@ -7,7 +7,7 @@
     <title>.MOORE</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -19,9 +19,7 @@
 
 </head>
 <body>
-@include('_partials.header')
 @yield('content')
-@include('_partials.footer')
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

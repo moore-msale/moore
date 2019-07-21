@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
-    @include('_partials.header')
         <div class="container-fluid">
+            <div class="mobile-trans d-lg-none d-block" style="width: 130px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 0;">
+            </div>
             <div class="row justify-content-center first-block" style="height: 120vh;">
                 <div class="col-1 d-md-block d-none" >
                     <div class="pl-5 left-sidebar" style="margin-top: 37vh;">
@@ -28,8 +29,7 @@
                     <div class="h-100 main-trans d-lg-block d-none" style="width: 260px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 10;">
                     </div>
 
-                    <div class="h-100 mobile-trans d-lg-none d-block" style="width: 130px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 0;">
-                    </div>
+
                 <p class="sf-light pl-lg-0 pl-md-0 pl-5 pr-lg-0 pr-md-0 pr-5 team-text in" data-aos="fade-up" style="color: #fefefe; padding-top: 35%; font-size: 15px; line-height: 130%; align-items: center; text-align: center; letter-spacing: 0.05em;">
                     Мы - команда небезразличных людей с горящими глазами и
                     <br>
@@ -68,7 +68,7 @@
                             Листайте вниз
                         </span>
                     </div>
-                    <a href="#">
+                    <a href="/portfolio">
                     <div class="text-center portfolio"  data-aos="fade-up" style="position: absolute; bottom: 4%; line-height: 0; letter-spacing: 0.2em; z-index: 999;">
                         <p class="sf-ligh text-white pb-3"  style="font-size: 14px;">
                             Смотреть
@@ -238,10 +238,10 @@
                     <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                     <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
-                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 15%; width: 224px;">
+                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 15%; width: 224px; z-index: 999;">
                     <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 224px;"></div>
                     <br>
-                    <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
+                    <a href="/portfolio" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
                         Смотреть портфолио
                     </a>
                     <br>
@@ -251,7 +251,7 @@
                 <div class="text-center d-md-none d-block btn-effect" data-aos="fade-up" style="line-height: 0">
                     <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 224px;"></div>
                     <br>
-                    <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em;">
+                    <a href="/portfolio" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em;">
                         Смотреть портфолио
                     </a>
                     <br>
@@ -271,9 +271,11 @@
                 </h2>
             </div>
             <div class="col-md-6 px-0 col-12 btn" style="padding-top: 20%; padding-bottom: 3%;">
-                <button class="sf-medium lefter" data-aos="fade-up" style="float: right; padding: 10px 15px; background-color: transparent; border: 1px #000000 solid;">
+                <a href="/portfolio">
+                <button  class="sf-medium lefter" data-aos="fade-up" style="float: right; padding: 10px 15px; background-color: transparent; border: 1px #000000 solid;">
                     Смотреть портфолио
                 </button>
+                </a>
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
                 <img class="w-100" src="{{ asset('images/beeline.png') }}" alt="">
@@ -497,6 +499,6 @@
 
     </div>
 
-    @include('_partials.footer')
+
 
 @endsection

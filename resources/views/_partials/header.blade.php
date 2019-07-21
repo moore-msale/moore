@@ -21,13 +21,13 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item px-3">
-                            <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Главная</a>
+                            <a href="/" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Портфолио</a>
+                            <a href="/portfolio" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Портфолио</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Вакансии</a>
+                            <a href="/jobs" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Вакансии</a>
                         </li>
                         <li class="nav-item px-3">
                             <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Контакты</a>
@@ -38,12 +38,12 @@
             <div class="col-md-4 collapse navbar-collapse">
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav">
-                        <li class="nav-item px-1">
-                            <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">En</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Ru</a>
-                        </li>
+                        {{--<li class="nav-item px-1">--}}
+                            {{--<a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">En</a>--}}
+                        {{--</li>--}}
+                        {{--<li class="nav-item px-1">--}}
+                            {{--<a href="#" class="text-white text-fut-bold sf-bold" style="text-decoration: none;">Ru</a>--}}
+                        {{--</li>--}}
                         <li class="nav-item px-5">
                             <a class="text-white text-fut-bold" style="text-decoration: none;">
                                 <img class="w-75" src="{{ asset('images/humburger.png') }}" alt="" onclick="openNav()">
@@ -72,13 +72,13 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
-                            <a href="#" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Главная</a>
+                            <a href="/" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Главная</a>
                         </li>
                         <li class="nav-item p-2 ">
-                            <a href="#" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Портфолио</a>
+                            <a href="/portfolio" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Портфолио</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Вакансии</a>
+                            <a href="/jobs" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Вакансии</a>
                         </li>
                         <li class="nav-item p-2">
                             <a href="#" class="text-white text-fut-bold" style="text-decoration: none; font-size: 16px;">Контакты</a>
@@ -91,8 +91,8 @@
 </nav>
 <div id="mySidenav" class="sidenav d-md-block d-none">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a class="sf-medium pl-5" href="#">  Вакансии</a>
-    <a class="sf-medium pl-5" href="#"> Портфолио</a>
+    <a class="sf-medium pl-5" href="/jobs">  Вакансии</a>
+    <a class="sf-medium pl-5" href="/portfolio"> Портфолио</a>
     <a class="sf-medium pl-5" href="tel: +996 709 111 143"> +996 709 111 143</a>
     <a class="sf-medium pl-5" href="tel: +996 771 044 429">+996 771 044 429</a>
     <a class="sf-medium pl-5" href="mailto: info@to-moore.com">info@to-moore.com</a>

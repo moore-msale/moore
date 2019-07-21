@@ -227,7 +227,10 @@ body
     background: radial-gradient(1248.58px at 73.39% 37.87%, #1D0046 0%, #0F0F0F 100%, #070012 100%);
     background-size: 100% 100%;
 }
-
+.port-trans
+{
+    animation: mobiletrans 15s infinite;
+}
 
 
 /*  КОНЕЦ ПОРТФОЛИО */
@@ -245,7 +248,7 @@ body
     .port-trans
     {
         top:0%!important;
-        height: 30vh!important;
+        height: 60vh!important;
     }
     .lefter
     {
@@ -270,6 +273,10 @@ body
     .first-block
     {
         height:130vh!important;
+    }
+    .mobile-trans
+    {
+        height: 130vh!important;
     }
     .nova-bg
     {
@@ -316,6 +323,10 @@ body
     {
         height:50vh!important;
     }
+    .mobile-trans
+    {
+        height: 50vh!important;
+    }
     .left-sidebar
     {
         margin-top:20vh!important;
@@ -349,6 +360,10 @@ body
     .first-block
     {
         height:60vh!important;
+    }
+    .mobile-trans
+    {
+        height: 60vh!important;
     }
     .port
     {

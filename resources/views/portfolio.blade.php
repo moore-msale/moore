@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="container-fluid">
-        <div class="mobile-trans d-lg-none d-block" style="width: 130px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 0;">
+        <div class="port-trans d-lg-none d-block" style="width: 130px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 0;">
         </div>
         <div class="row justify-content-center port-first" style="height: 100vh;">
             <div class="col-1 d-md-block d-none" >
@@ -30,7 +30,7 @@
                 </div>
 
 
-                <p class="sf-light pl-lg-0 pl-md-0 pl-5 pr-lg-0 pr-md-0 pr-5 team-text in" data-aos="fade-up" style="color: #fefefe; padding-top: 15%; font-size: 15px; line-height: 130%; align-items: center; text-align: center; letter-spacing: 0.05em;">
+                <p class="sf-light pl-lg-0 pl-md-0 pl-5 pr-lg-0 pr-md-0 pr-5 team-text in" data-aos="fade-up" style="color: #fefefe; padding-top: 20%; font-size: 15px; line-height: 130%; align-items: center; text-align: center; letter-spacing: 0.05em;">
                     Мы - команда небезразличных людей с горящими глазами и
                     <br>
                     сердцами, которые от всей души любят то, что делают!
@@ -39,25 +39,25 @@
                     PORTFOLIO
                 </h1>
 
-                <div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 60%; left: 40%; line-height: 0; padding-top:5%; width: 176px; z-index: 999;">
-                    <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>
-                    <br>
-                    <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
-                        Узнать больше
-                    </a>
-                    <br>
-                    <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>
-                </div>
-                <div class="text-center btn-effect d-md-none d-block mx-auto" data-aos="fade-up" style="line-height: 0; padding-top:5%;  z-index: 9999; width: 176px;">
-                    <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>
-                    <br>
-                    <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
-                        Узнать больше
-                    </a>
-                    <br>
-                    <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>
+                {{--<div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 60%; left: 40%; line-height: 0; padding-top:5%; width: 176px; z-index: 999;">--}}
+                    {{--<div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>--}}
+                    {{--<br>--}}
+                    {{--<a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">--}}
+                        {{--Узнать больше--}}
+                    {{--</a>--}}
+                    {{--<br>--}}
+                    {{--<div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>--}}
+                {{--</div>--}}
+                {{--<div class="text-center btn-effect d-md-none d-block mx-auto" data-aos="fade-up" style="line-height: 0; padding-top:5%;  z-index: 9999; width: 176px;">--}}
+                    {{--<div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>--}}
+                    {{--<br>--}}
+                    {{--<a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">--}}
+                        {{--Узнать больше--}}
+                    {{--</a>--}}
+                    {{--<br>--}}
+                    {{--<div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>--}}
 
-                </div>
+                {{--</div>--}}
 
             </div>
             <div class="col-1 d-md-block d-none">
@@ -75,13 +75,15 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-6 py-5 pl-5 pr-4">
+        <div class="col-md-6 col-12 py-5 pl-5 pr-md-4 pr-5">
             <div>
                 <img class="w-100" src="{{ asset('images/mistore.png') }}" alt="">
             </div>
         </div>
-        <div class="col-6 py-5 pr-5 pl-4">
+        <div class="col-md-6 col-12 py-5 pr-5 pl-md-4 pl-5">
+            <div>
             <img class="w-100" src="{{ asset('images/novaclinic.jpg') }}" alt="">
+            </div>
         </div>
     </div>
 </div>

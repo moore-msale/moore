@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
