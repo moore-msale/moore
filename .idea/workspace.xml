@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76604542-acc8-4280-bb94-b106aa74c95b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/moore2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moore2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/portfolio.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/portfolio.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="76604542-acc8-4280-bb94-b106aa74c95b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jobs.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/jobs.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="e#1764#1906#0#HTML" expanded="true" />
                 <element signature="e#2175#2364#0#HTML" expanded="true" />
@@ -110,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="273" column="40" selection-start-line="273" selection-start-column="40" selection-end-line="273" selection-end-column="40" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="30" />
               <folding>
                 <element signature="e#144#253#0#HTML" expanded="true" />
                 <element signature="e#16091#16182#0#HTML" expanded="true" />
@@ -182,9 +168,9 @@
         <option value="$PROJECT_DIR$/resources/views/portfolio.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/jobs.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/jobs.blade.php" />
       </list>
     </option>
   </component>
@@ -452,12 +438,12 @@
       <workItem from="1563506731254" duration="29472000" />
       <workItem from="1563602388645" duration="6000" />
       <workItem from="1563602650826" duration="6195000" />
-      <workItem from="1563724819133" duration="7422000" />
+      <workItem from="1563724819133" duration="7846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70126000" />
+    <option name="totallyTimeSpent" value="70550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -728,26 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/jobs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
-          <folding>
-            <element signature="e#1764#1906#0#HTML" expanded="true" />
-            <element signature="e#2175#2364#0#HTML" expanded="true" />
-            <element signature="e#5288#5331#0#HTML" expanded="true" />
-            <element signature="e#5466#5547#0#HTML" expanded="true" />
-            <element signature="e#5997#6040#0#HTML" expanded="true" />
-            <element signature="e#6156#6222#0#HTML" expanded="true" />
-            <element signature="e#6837#6880#0#HTML" expanded="true" />
-            <element signature="e#6995#7061#0#HTML" expanded="true" />
-            <element signature="e#7427#7508#0#HTML" expanded="true" />
-            <element signature="e#7912#7955#0#HTML" expanded="true" />
-            <element signature="e#8069#8135#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Portfolio.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -779,11 +745,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="273" column="40" selection-start-line="273" selection-start-column="40" selection-end-line="273" selection-end-column="40" />
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#144#253#0#HTML" expanded="true" />
             <element signature="e#16091#16182#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/jobs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#1764#1906#0#HTML" expanded="true" />
+            <element signature="e#2175#2364#0#HTML" expanded="true" />
+            <element signature="e#5288#5331#0#HTML" expanded="true" />
+            <element signature="e#5466#5547#0#HTML" expanded="true" />
+            <element signature="e#5997#6040#0#HTML" expanded="true" />
+            <element signature="e#6156#6222#0#HTML" expanded="true" />
+            <element signature="e#6837#6880#0#HTML" expanded="true" />
+            <element signature="e#6995#7061#0#HTML" expanded="true" />
+            <element signature="e#7427#7508#0#HTML" expanded="true" />
+            <element signature="e#7912#7955#0#HTML" expanded="true" />
+            <element signature="e#8069#8135#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

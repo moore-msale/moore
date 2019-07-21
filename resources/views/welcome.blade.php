@@ -39,7 +39,7 @@
                     .MOORE
                 </h1>
                     <img class="mx-auto w-75 d-md-block d-none" data-aos="flip-up" style="z-index: 0;" src="{{ asset('images/STUDIO.png') }}" alt="">
-                        <div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 55%; left: 40%; line-height: 0; padding-top:5%; width: 176px; z-index: 999;">
+                        <div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 55%; left: 40%; line-height: 0; padding-top:5%; width: 176px; z-index: 998;">
                         <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>
                         <br>
                     <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
@@ -49,7 +49,7 @@
                         <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>
 
                     </div>
-                    <div class="text-center btn-effect d-md-none d-block mx-auto" data-aos="fade-up" style="line-height: 0; padding-top:5%;  z-index: 9999; width: 176px;">
+                    <div class="text-center btn-effect d-md-none d-block mx-auto" data-aos="fade-up" style="line-height: 0; padding-top:5%;  z-index: 9989; width: 176px;">
                         <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>
                         <br>
                         <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
@@ -69,7 +69,7 @@
                         </span>
                     </div>
                     <a href="/portfolio">
-                    <div class="text-center portfolio"  data-aos="fade-up" style="position: absolute; bottom: 4%; line-height: 0; letter-spacing: 0.2em; z-index: 999;">
+                    <div class="text-center portfolio"  data-aos="fade-up" style="position: absolute; bottom: 4%; line-height: 0; letter-spacing: 0.2em; z-index: 998;">
                         <p class="sf-ligh text-white pb-3"  style="font-size: 14px;">
                             Смотреть
                         </p>
@@ -238,7 +238,7 @@
                     <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                     <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
-                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 15%; width: 224px; z-index: 999;">
+                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 15%; width: 224px; z-index: 998;">
                     <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 224px;"></div>
                     <br>
                     <a href="/portfolio" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
