@@ -3,15 +3,15 @@
         <div class="container-fluid">
             <div class="mobile-trans d-lg-none d-block" style="width: 130px; position: absolute; box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7); left:-14%; z-index: 0;">
             </div>
-            <div class="row justify-content-center first-block" style="height: 100vh;">
+            <div class="row justify-content-center first-block" style="height: 120vh;">
                 <div class="col-1 d-md-block d-none" >
                     <div class="pl-5 left-sidebar" style="margin-top: 37vh;">
-                        <a href="https://www.behance.net/moore_studio" class="ics" target="_blank">
+                        <a href="#" class="ics">
                         <p class="py-3 text-white opacity-5">
                             <i data-aos="fade-right" class="fab fa-behance fa-2x"></i>
                         </p>
                         </a>
-                        <a href="https://www.instagram.com/moore_studio/" class="ics" target="_blank">
+                        <a href="#" class="ics">
                         <p class="py-3 text-white opacity-5">
                             <i data-aos="fade-right" class="fab fa-instagram fa-2x"></i>
                         </p>
@@ -30,23 +30,23 @@
                     </div>
 
 
-                <p class="sf-ultralight pl-lg-0 pl-md-0 pl-5 pr-lg-0 pr-md-0 pr-5 team-text in" data-aos="fade-up" style="color: #fefefe; padding-top: 35%; font-size: 18px; line-height: 130%; align-items: center; text-align: center; letter-spacing: 0.05em;">
+                <p class="sf-light pl-lg-0 pl-md-0 pl-5 pr-lg-0 pr-md-0 pr-5 team-text in" data-aos="fade-up" style="color: #fefefe; padding-top: 35%; font-size: 15px; line-height: 130%; align-items: center; text-align: center; letter-spacing: 0.05em;">
                     Мы - команда небезразличных людей с горящими глазами и
                     <br>
                     сердцами, которые от всей души любят то, что делают!
                 </p>
-                <h1 class="sf-black main-text glitch" data-aos="flip-down" style="background-image: url({{ asset('images/moorebg.png') }});color: #fefefe; font-size: 135px; line-height: 161px; text-align: center; letter-spacing: 0.05em; text-transform: uppercase;" data-text=".MOORE">
+                <h1 class="sf-black main-text" data-aos="flip-down" style="background-image: url({{ asset('images/moorebg.png') }});color: #fefefe; font-size: 135px; line-height: 161px; text-align: center; letter-spacing: 0.05em; text-transform: uppercase;">
                     .MOORE
                 </h1>
                     <img class="mx-auto w-75 d-md-block d-none" data-aos="flip-up" style="z-index: 0;" src="{{ asset('images/STUDIO.png') }}" alt="">
-                        <div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 59%; left: 40%; line-height: 0; padding:1.5%; width: 176px; z-index: 998;    border-radius: 100px;    border: 1px solid white;">
-                        
+                        <div class="text-center btn-effect d-md-block d-none" data-aos="fade-up" style="position:absolute; top: 55%; left: 40%; line-height: 0; padding-top:5%; width: 176px; z-index: 998;">
+                        <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 176px;"></div>
                         <br>
                     <a href="#" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
                         Узнать больше
                     </a>
                         <br>
-                        
+                        <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>
 
                     </div>
                     <div class="text-center btn-effect d-md-none d-block mx-auto" data-aos="fade-up" style="line-height: 0; padding-top:5%;  z-index: 9989; width: 176px;">
@@ -59,16 +59,16 @@
                         <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 128px;"></div>
 
                     </div>
-                    <img class="d-md-block d-none vrashe" style="position: absolute; bottom:10%; left:40%;" src="{{ asset('images/Line.png') }}" alt="">
+                    <img class="d-md-block d-none" style="position: absolute; bottom:10%; left:40%;" src="{{ asset('images/Line.png') }}" alt="">
                 </div>
                 <div class="col-3 d-md-block d-none">
-                    <div class="pr-4 right-sidebar " data-aos="fade-up" style="position: absolute; top:50vh; right:-32px; transform: rotate(90deg); line-height: 2;">
+                    <div class="pr-4 right-sidebar vector-effect" data-aos="fade-up" style="position: absolute; top:50vh; right:-32px; transform: rotate(90deg); line-height: 2;">
                         <div class="vector-border" style="border-top: 1px solid #FFFFFF; width: 220px;"></div>
                         <span class="py-4 text-white sf-light vector-text" style="width:240px;font-size: 16px; letter-spacing: 0.2em;">
                             Листайте вниз
                         </span>
                     </div>
-                    <a href="/portfolio">
+                    <a href="/portfolio_queue">
                     <div class="text-center portfolio"  data-aos="fade-up" style="position: absolute; bottom: 4%; line-height: 0; letter-spacing: 0.2em; z-index: 998;">
                         <p class="sf-ligh text-white pb-3"  style="font-size: 14px;">
                             Смотреть
@@ -87,7 +87,7 @@
         </div>
     <div class="container-fluid p-5">
 
-        <span class="font-weight-bold sf-black text-about" data-aos="fade-up" style="font-size: 73px; text-align: left; font-weight: 400; font-style: normal; letter-spacing: 1px; line-height: 100%; color: #191919;"><span class="responsive-h4">Мы занимаемся <span class="obvod">созданием</span>
+        <span class="font-weight-bold sf-black text-about" data-aos="fade-up" style="font-size: 64px; text-align: left; font-weight: 400; font-style: normal; letter-spacing: 1px; line-height: 100%; color: #191919;"><span class="responsive-h4">Мы занимаемся <span class="obvod">созданием</span>
                 <br>сайтов и интерфейсов,<br>
 <span class="obvod">брендингом</span>, придумываем <br> рекламу и развиваем <br> проекты в <span class="obvod">digital</span>.</span></span>
 
@@ -149,11 +149,9 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12" style="line-height: 0; padding-top:11%; ">
-                        <p class="font-weight-bold sf-light" data-aos="fade-up" style="font-size: 16px; letter-spacing: 0.05em;    line-height: 22px; margin: 0;">
-                            Выполнили более 250 </br>
-                            проектов в разных областях 
-                            
+                        <div class="col-12" style="line-height: 0; padding-top:12%; ">
+                        <p class="font-weight-bold sf-medium" data-aos="fade-up" style="font-size: 16px; letter-spacing: 0.05em;">
+                            Проектов
                         </p>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
@@ -163,19 +161,18 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-12 text-md-center">
-                            <p class="font-weight-bold sf-light media-year" data-aos="fade-up" style="position: absolute; top:18%; left: 11%; transform: rotate(-90deg); font-size: 14px; line-height: 140%; letter-spacing: 0.05em; text-align: right;">
-                                Лет опыта </br>
-                                в Digital
+                            <p class="font-weight-bold sf-bold media-year" data-aos="fade-up" style="position: absolute; top:25%; left: 15%; transform: rotate(-90deg); font-size: 14px; line-height: 140%; letter-spacing: 0.05em;">
+                                лет опыта
                             </p>
                             <p class="font-weight-bold sf-black pl-lg-0 pl-md-4 pl-0" data-aos="fade-up" style="font-size: 100px; line-height: 1;">
                                 5
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
-                            <p class="font-weight-normal mb-0 sf-ultralight" data-aos="fade-up" style="font-size: 100px; line-height: 1;">
+                            <p class="font-weight-normal mb-0 sf-medium" data-aos="fade-up" style="font-size: 100px; line-height: 1;">
                                 100
                             </p>
-                            <p class="sf-light" data-aos="fade-up" style="font-size: 16px; line-height: 120%; letter-spacing: 0.05em;">
+                            <p class="sf-medium" data-aos="fade-up" style="font-size: 16px; line-height: 120%; letter-spacing: 0.05em;">
                                 тысяч посещений в
                                 <br>
                                 сутки
@@ -197,24 +194,24 @@
             <div class="col-md-6 col-12 nova-bg py-md-0 py-5">
                 <img class="w-100" data-aos="fade-right" style="max-width: 620px!important;" src="{{ asset('images/nova.png') }}" alt="">
                 <a href="#">
-                <div class="d-md-block d-none vector-effect" data-aos="fade-right" style="position: absolute; left:6%;bottom:-5%; border-bottom: 0px #fefefe solid; width:180px;">
+                <div class="d-md-block d-none vector-effect" data-aos="fade-right" style="position: absolute; left:6%;bottom:-5%; border-bottom: 1px #fefefe solid; width:180px;">
                     <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                     <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
                 </a>
-                <div class="d-md-none d-block vector-effect" data-aos="fade-right" style="border-bottom: 0px #fefefe solid; width: 190px;">
+                <div class="d-md-none d-block vector-effect" data-aos="fade-right" style="border-bottom: 1px #fefefe solid; width: 190px;">
                     <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                     <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
             </div>
             <div class="col-md-6 col-12 pt-md-0 py-4 enesay-bg">
                 <img class="w-100 mb-4 d-md-block d-none"  data-aos="fade-up" src="{{ asset('images/enesay.png') }}" alt="">
-                <div class="vector-effect d-md-block d-none"  data-aos="fade-up" style="border-bottom: 0px #fefefe solid; width:180px;">
+                <div class="vector-effect d-md-block d-none"  data-aos="fade-up" style="border-bottom: 1px #fefefe solid; width:180px;">
                 <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                 <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
 
-                <div class="d-lg-block d-none" style="position: absolute; bottom: 10%; left:2%;">
+                <div class="d-lg-block d-none" style="position: absolute; bottom: 3%; left:15%;">
                     <p class="sf-light" data-aos="fade-up" style="font-size: 14px; line-height: 140%; letter-spacing: 0.05em; color:white;">
                         Давно выяснено, что при оценке дизайна и композиции <br>
                         читаемый текст мешает сосредоточиться. Lorem Ipsum <br>
@@ -237,24 +234,24 @@
                     </p>
                 </div>
                 <img class="w-100 mb-4 d-md-none d-block"  data-aos="fade-up" src="{{ asset('images/enesay.png') }}" alt="">
-                <div class="vector-effect d-md-none d-block mb-5 "  data-aos="fade-up" style="border-bottom: 0px #fefefe solid; width:180px;">
+                <div class="vector-effect d-md-none d-block mb-5 "  data-aos="fade-up" style="border-bottom: 1px #fefefe solid; width:180px;">
                     <span class="sf-light vector-text" style="font-size: 16px; line-height: 19px; text-align: center; letter-spacing: 0.05em; color: #fefefe;">Смотреть кейс</span>
                     <img class="ml-3 vector-image" src="{{ asset('images/Arrow.png') }}" alt="">
                 </div>
-                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 2%; width: 224px; z-index: 998;    border: 1px solid white; border-radius: 100px;padding: 1.5%;">
-                    
+                <div class="text-center d-md-block d-none btn-effect" data-aos="fade-up" style="position: absolute; line-height: 0; bottom:-5%; left: 15%; width: 224px; z-index: 998;">
+                    <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 224px;"></div>
                     <br>
-                    <a href="/portfolio" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
+                    <a href="/portfolio_queue" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em; text-decoration: none;">
                         Смотреть портфолио
                     </a>
                     <br>
-                    
+                    <div class="mx-auto mt-2 btn-bt-border" style="border-bottom:1px #fefefe solid; width: 180px;"></div>
 
                 </div>
                 <div class="text-center d-md-none d-block btn-effect" data-aos="fade-up" style="line-height: 0">
                     <div class="mx-auto mb-2 btn-tp-border" style="border-top:1px #fefefe solid; width: 224px;"></div>
                     <br>
-                    <a href="/portfolio" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em;">
+                    <a href="/portfolio_queue" class="moore text-white sf-light" style="font-size: 15px; line-height: 18px; text-align: center; letter-spacing: 0.05em;">
                         Смотреть портфолио
                     </a>
                     <br>
@@ -265,7 +262,7 @@
         </div>
     </div>
         <div class="container-fluid" style="background-color: white;">
-            <img style="position: absolute; right: 4%; margin-top: 30%; width:10%;" src="{{ asset('images/line3.png') }}" alt="" class="vrashe">
+            <img style="position: absolute; right: 4%; margin-top: 30%; width:10%;" src="{{ asset('images/line3.png') }}" alt="">
     <div class="container" style="padding: 0% 9%;">
         <div class="row">
             <div class="col-md-6 px-0 col-12" style="padding-top: 20%; padding-bottom: 3%;">
@@ -274,8 +271,8 @@
                 </h2>
             </div>
             <div class="col-md-6 px-0 col-12 btn" style="padding-top: 20%; padding-bottom: 3%;">
-                <a href="/portfolio">
-                <button  class="sf-medium lefter" data-aos="fade-up" style="float: right; padding: 10px 15px; background-color: transparent; border: 1px #00000085 solid;     border-radius: 100px;">
+                <a href="/portfolio_queue">
+                <button  class="sf-medium lefter" data-aos="fade-up" style="float: right; padding: 10px 15px; background-color: transparent; border: 1px #000000 solid;">
                     Смотреть портфолио
                 </button>
                 </a>
@@ -300,60 +297,60 @@
             </div>
 
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/chef.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/beeline.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/cityestetic.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/stom.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/denttrade.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/apiks.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/digai.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/artclinic.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/elithouse.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/asia.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/greenclinic.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/avia.png') }}" alt="">
             </div>
 
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/marina.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/beeline.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/logic.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/stom.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/medi.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/apiks.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/mistorelogo.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/artclinic.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/novalogo.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/asia.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/omurzakov.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/avia.png') }}" alt="">
             </div>
 
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/pamir.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/beeline.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/sa.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/stom.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-right" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/spa.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/apiks.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/vino.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/artclinic.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/LB.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/asia.png') }}" alt="">
             </div>
             <div class="col-md-2 col-4 px-0" data-aos="fade-up" style="border: 1px solid rgba(0,0,0,0.12);">
-                <img class="w-100" src="{{ asset('images/akmaral.png') }}" alt="">
+                <img class="w-100" src="{{ asset('images/avia.png') }}" alt="">
             </div>
         </div>
 
@@ -375,11 +372,11 @@
 
         <div class="row pt-5">
             <div class="col-lg-4 col-12 text-center d-md-block d-none">
-                <img src="{{ asset('images/line3.png') }}" data-aos="fade-right" alt="" class="vrashe">
+                <img src="{{ asset('images/line3.png') }}" data-aos="fade-right" alt="">
             </div>
             <div class="col-lg-4 col-12">
                 <h2 class="sf-black" data-aos="fade-up" style="font-size: 30px; line-height: 42px; letter-spacing: 0.1em; text-transform: uppercase;">
-                    <i class="fab fa-dev"></i> ПОМОГАЕМ
+                    01_ПОМОГАЕМ
                 </h2>
                 <p class="sf-light" data-aos="fade-up" style="font-size: 14px; line-height: 140%; letter-spacing: 0.1em; color: black;">
                     Мы помогаем перестроить систему
@@ -391,7 +388,7 @@
             </div>
             <div class="col-lg-4 col-12">
                 <h2 class="sf-black" data-aos="fade-up" style="font-size: 30px; line-height: 42px; letter-spacing: 0.1em; text-transform: uppercase;">
-                    <i class="fab fa-connectdevelop"></i> РАЗВИВАЕМ
+                    02_РАЗВИВАЕМ
                 </h2>
                 <p class="sf-light" data-aos="fade-up" style="font-size: 14px; line-height: 140%; letter-spacing: 0.1em; color: black;">
                     Переход компаний в цифровую среду означает не

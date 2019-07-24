@@ -206,7 +206,7 @@ body
     letter-spacing: 3px;
 }
 .menuse.solid-nav {
-    background-color: black!important;
+    background-color: #202020!important;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -435,3 +435,24 @@ body
     }
 }
 /* КОНЕЦ АНИМАЦИЙ */
+img.vrashe {
+  animation: 6s cubic-bezier(0.96, 0.06, 0.36, 0.87) 6s normal none infinite running vrashe;
+  -webkit-animation: 6s cubic-bezier(0.96, 0.06, 0.36, 0.87) 6s normal none infinite running vrashe;
+
+}
+@keyframes vrashe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes vrashe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

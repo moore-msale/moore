@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/portfolio_queue', function () {
-    return view('portfolio',['portfolios' => \App\Portfolio::all()]);
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
 Route::get('/jobs', function () {
     return view('jobs');
@@ -26,5 +26,3 @@ Route::get('/jobs', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
-
-Route::get('/portfolio/{id}','PortfolioController@page')->name('portfolio');
